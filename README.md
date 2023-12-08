@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://gitpoint.co/">
     <img src="https://i.ibb.co/9Zcz0hV/github-readme.png" alt="github-readme" border="0">
-  </a>
 </p>
 
 <p align="center">
