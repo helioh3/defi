@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.ibb.co/9Zcz0hV/github-readme.png" alt="github-readme" border="0">
+    <img src="https://i.ibb.co/X2c2GGS/opensource.png" alt="opensource" border="0">
 </p>
 
 <p align="center">
