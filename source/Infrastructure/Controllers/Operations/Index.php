@@ -2,9 +2,8 @@
 
 namespace App\Infrastructure\Controllers\Operations;
 
-use App\Http\Admin\Plan\Resources\PlanResource;
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use App\Domains\Admin\Plan\PlanService;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 
 trait Index
