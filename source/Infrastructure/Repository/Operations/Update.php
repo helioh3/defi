@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Repository\Operations;
+namespace Defi\Infrastructure\Repository\Operations;
 
 trait Update
 {
