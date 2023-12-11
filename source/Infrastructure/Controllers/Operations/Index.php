@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Controllers\Operations;
+namespace Defi\Infrastructure\Controllers\Operations;
 
 use App\Domains\Admin\Plan\PlanService;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
