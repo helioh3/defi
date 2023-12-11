@@ -2,10 +2,13 @@
 
 namespace Defi\Infrastructure\Controllers\Operations;
 
+use Defi\Infrastructure\GenericResource;
+
 trait Index
 {
-    public function index()
+    public function index(): GenericResource
     {
-        return $this->repository->findAll();
+        $data = $this->repository->findAll();
+        return new GenericResource($data);
     }
 }
