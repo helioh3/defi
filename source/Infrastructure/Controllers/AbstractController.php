@@ -3,7 +3,6 @@
 namespace Defi\Infrastructure\Controllers;
 
 use App\Core\Http\Controllers\Controller;
-use Defi\Infrastructure\Repository\RepositoryInterface;
 use Defi\Infrastructure\Controllers\Operations\Create;
 use Defi\Infrastructure\Controllers\Operations\Destroy;
 use Defi\Infrastructure\Controllers\Operations\Index;
