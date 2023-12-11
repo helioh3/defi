@@ -2,12 +2,9 @@
 
 namespace Defi\Infrastructure\Controllers\Operations;
 
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
-
-
 trait Index
 {
-    public function index(): AnonymousResourceCollection
+    public function index()
     {
         return $this->repository->findAll();
     }
