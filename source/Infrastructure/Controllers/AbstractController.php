@@ -9,6 +9,7 @@ use Defi\Infrastructure\Controllers\Operations\Index;
 use Defi\Infrastructure\Controllers\Operations\Show;
 use Defi\Infrastructure\Controllers\Operations\Store;
 use Defi\Infrastructure\Controllers\Operations\Update;
+use Defi\Infrastructure\Repository\RepositoryInterface;
 
 class AbstractController extends Controller
 {
