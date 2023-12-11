@@ -2,7 +2,6 @@
 
 namespace App\Infrastructure\Controllers\Operations;
 
-use App\Http\Admin\Plan\Requests\PlanUpdateRequest;
 use Illuminate\Http\Client\Request;
 
 trait Update
