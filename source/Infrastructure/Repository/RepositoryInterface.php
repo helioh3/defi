@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Repository;
+namespace Defi\Infrastructure\Repository;
 
 interface RepositoryInterface
 {

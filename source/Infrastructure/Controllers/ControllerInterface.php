@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Controllers;
+namespace Defi\Infrastructure\Controllers;
 
 interface ControllerInterface
 {

@@ -2,7 +2,7 @@
 
 namespace Defi\Infrastructure\Repository;
 
-use App\Infrastructure\Repository\RepositoryInterface;
+use Defi\Infrastructure\Repository\RepositoryInterface;
 use Defi\Infrastructure\Repository\Operations\FindAll;
 use Defi\Infrastructure\Repository\Operations\FindById;
 use Defi\Infrastructure\Repository\Operations\Register;
