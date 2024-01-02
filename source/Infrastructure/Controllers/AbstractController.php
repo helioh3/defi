@@ -11,7 +11,7 @@ use Defi\Infrastructure\Controllers\Operations\Store;
 use Defi\Infrastructure\Controllers\Operations\Update;
 use Defi\Infrastructure\Repository\RepositoryInterface;
 
-class AbstractController extends Controller
+abstract class AbstractController extends Controller
 {
     /**
      * @param RepositoryInterface $repository

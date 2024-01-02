@@ -10,7 +10,7 @@ trait Remove
      */
     public function remove(int $id): mixed
     {
-        $dataId = $this->model->find($id);
-        return $dataId->delete();
+        $removeId = $this->model->find($id);
+        return $removeId->delete();
     }
 }
