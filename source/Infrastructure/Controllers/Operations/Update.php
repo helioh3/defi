@@ -2,7 +2,7 @@
 
 namespace Defi\Infrastructure\Controllers\Operations;
 
-use Illuminate\Http\Client\Request;
+use Illuminate\Http\Request;
 
 trait Update
 {
