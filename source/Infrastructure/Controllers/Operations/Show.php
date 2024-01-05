@@ -6,7 +6,7 @@ trait Show
 {
     public function show(int $id)
     {
-        return $this->repository->find($id);
+        return $this->repository->findById($id);
     }
 
 }
