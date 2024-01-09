@@ -11,6 +11,6 @@ trait FindAll
      */
     public function findAll(): Collection
     {
-        return $this->model->all();
+        return $this->model->latest()->get();
     }
 }
