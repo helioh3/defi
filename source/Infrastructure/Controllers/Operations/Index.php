@@ -6,9 +6,9 @@ use Defi\Infrastructure\GenericResource;
 
 trait Index
 {
-    public function index(): GenericResource
+    public function index(): \Illuminate\Http\Resources\Json\AnonymousResourceCollection
     {
         $data = $this->repository->findAll();
-        return new GenericResource($data);
+        return GenericResource::collection($data);
     }
 }
