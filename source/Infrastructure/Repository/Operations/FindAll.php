@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Collection;
 trait FindAll
 {
     /**
-     * @return Collection
+     * @return mixed
      */
-    public function findAll(): Collection
+    public function findAll(): mixed
     {
-        return $this->model->all();
+        return $this->model->latest()->paginate();
     }
 }
