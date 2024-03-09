@@ -11,6 +11,6 @@ trait FindAll
      */
     public function findAll(): mixed
     {
-        return $this->model->latest()->paginate();
+        return $this->model->latest()->paginate(11);
     }
 }
